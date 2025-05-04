@@ -74,14 +74,6 @@ class Client(commands.Bot):
 #     TABLE = '''
 #             CREATE TABLE IF NOT EXISTS user_data (
 #                 discord_id INTEGER PRIMARY KEY,
-#                 game_id TEXT DEFAULT NULL,
-#                 game_name TEXT DEFAULT NULL,
-#                 whitelisted BOOLEAN NOT NULL DEFAULT 0,
-#                 security_level INTEGER DEFAULT 0,
-#                 staff_role TEXT DEFAULT NULL,
-#                 event_log TEXT DEFAULT NULL,
-#                 activity TEXT DEFAULT NULL,
-#                 affiliation TEXT DEFAULT NULL
 #             );
 #             '''
 
