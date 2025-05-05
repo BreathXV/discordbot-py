@@ -87,7 +87,7 @@ class Client(commands.Bot):
 
 def main() -> None:
     logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s: %(message)s")
-    bot = Client(prefix="!", ext_dir="cogs")
+    bot = Client(prefix="!", ext_dir="components")
 
     bot.run(TOKEN)
 
